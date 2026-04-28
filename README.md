@@ -5,6 +5,8 @@ Usage:
 ```cpp
 #include "junk_code_generator.hpp"
 
+#include <iostream>
+
 int main(int argc, char** argv) {
   generator<16>::generate_junk(); // generate junk
 
